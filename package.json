@@ -1,6 +1,6 @@
 {
   "name": "fsmon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/fsmon.js",
   "description": "file system monitor tool  for command line ",
   "homepage": "https://github.com/lyuehh/fsmon",
