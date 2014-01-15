@@ -1,0 +1,39 @@
+{
+  "name": "fsmon",
+  "version": "0.0.0",
+  "main": "lib/fsmon.js",
+  "description": "file system monitor tool  for command line ",
+  "homepage": "https://github.com/lyuehh/fsmon",
+  "bugs": "https://github.com/lyuehh/fsmon/issues",
+  "author": {
+    "name": "lyuehh",
+    "email": "lyuehh@gmail.com",
+    "url": "http://lyuehh.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyuehh/fsmon"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "fsmon": "./bin/cli.js"
+  },
+  "dependencies": {
+    "gaze": "~0.4.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.0",
+    "jshint-stylish": "~0.1.3"
+  }
+}
